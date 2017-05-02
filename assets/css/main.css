@@ -69,7 +69,7 @@ section{
 
 #contacto{
 	position: absolute;
-	height: 400px;
+	height: 600px;
 	margin: 0;
 	display: inline-flex;
 }
@@ -130,8 +130,6 @@ section{
 	left: 250px;
 }
 
-
-
 #text-contacto div{
 	display: inline-block;
 }
@@ -153,11 +151,12 @@ section{
 /*=====GRADIENTE-CELULAR=====*/
 
 #gradiente-morado{
-	width: 100%;
-	height: 500px;
+	position: relative;
+	top: 600px;
+	width: 1510px;
+	height: 530px;
 	color: white;
 	background-color: purple;
-	display: inline-flex;
 }
 
 #text-gradiente{
@@ -167,6 +166,7 @@ section{
 	width: 350px;
 	display: inline-block;
 	font-weight: 400;
+	top: 50px;
 }
 
 #text-gradiente h2{
@@ -188,6 +188,7 @@ section{
 	margin: 0 auto;
 	right: 250px;
 	width: 460px;
+	top: 20px;
 }
 
 #celular-gradiente img{
@@ -197,59 +198,72 @@ section{
 /*=====VIDEO1=====*/
 
 #video1{
+	position: relative;
+	top: 600px;
 	height: 400px;
 	width: 100%;
-	display: inline-flex;
 }
 
 .text-video{
-	width: 300px;
+	position: absolute;
+	left: 100px;
+	top: 20px;
+	width: 320px;
+	line-height: 24px;
 }
 
 #video1 iframe{
-	width: 600px;
-	height: auto
+	position: absolute;
+	right: 0;
+	width: 900px;
+	height: 397px;
 }
 
 
 /*=====VIDEO2=====*/
 
 #video2{
+	position: relative;
+	top: 600px;
 	height: 400px;
 	width: 100%;
-	display: inline-flex;
 }
 
-.text-video{
-	width: 300px;
+.text-video-derecha{
+	position: absolute;
+	right: 100px;
+	top: 20px;
+	width: 320px;
+	line-height: 24px;
 }
 
 #video2 iframe{
-	width: 600px;
-	height: auto
+	position: absolute;
+	left: 0;
+	width: 900px;
+	height: 397px;
 }
 
 /*=====VIDEO3=====*/
 
 #video3{
-	height: 400px;
-	width: 100%;
-	display: inline-flex;
+	position: relative;
+	top: 600px;
 }
 
-.text-video{
-	width: 300px;
-}
 
 #video3 iframe{
-	width: 600px;
-	height: auto
+	position: absolute;
+	right: 0;
+	width: 900px;
+	height: 397px;
 }
 
 /*=====FOOTER=====*/
 
 #footer{
 	position: relative;
+	top: 2330px;
 	width: 100%;
 	height: 410px;
 	background-color: #303043;
@@ -263,6 +277,7 @@ section{
 	right: 0;
 	left: 0;
 	display: block;
+	top: 18px;
 }
 
 .div-columna{
@@ -315,23 +330,22 @@ section{
 }
 
 .div-circular{
-	width: 40px;
-	height: 40px;
+/*	width: 40px;
+	height: 40px;*/
 	display: inline-block;
-	border-radius: 40px;
-	border: 2px solid white;
+	margin: 0 6px;
 }
 
 .icon-facebook{
-	font-size: 25px;
+	font-size: 32px;
 }
 
 .icon-instagram{
-	font-size: 	25px;
+	font-size: 	32px;
 }
 
 .icon-twitter{
-	font-size: 25px;
+	font-size: 32px;
 }
 
 #div-footer3{
@@ -340,7 +354,7 @@ section{
 	right: 0;
 	left: 0;
 	width: 600px;
-	top: 345px;
+	top: 332px;
 	text-align: center;
 }
 
