@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?iseiv7');
-  src:  url('fonts/icomoon.eot?iseiv7#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?iseiv7') format('truetype'),
-    url('fonts/icomoon.woff?iseiv7') format('woff'),
-    url('fonts/icomoon.svg?iseiv7#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?pfl6tg');
+  src:  url('fonts/icomoon.eot?pfl6tg#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?pfl6tg') format('truetype'),
+    url('fonts/icomoon.woff?pfl6tg') format('woff'),
+    url('fonts/icomoon.svg?pfl6tg#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,64 +24,28 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-add_shopping_cart:before {
-  content: "\e854";
+.icon-flecha-hacia-abajo:before {
+  content: "\e907";
 }
-.icon-done:before {
-  content: "\e876";
+.icon-youtube-play:before {
+  content: "\e901";
 }
-.icon-favorite_border:before {
-  content: "\e87e";
-}
-.icon-keyboard_arrow_down:before {
-  content: "\e313";
-}
-.icon-keyboard_arrow_left:before {
-  content: "\e314";
-}
-.icon-keyboard_arrow_right:before {
-  content: "\e315";
-}
-.icon-keyboard_arrow_up:before {
-  content: "\e316";
-}
-.icon-shopping_cart:before {
-  content: "\e8cc";
-}
-.icon-local_shipping:before {
-  content: "\e558";
-}
-.icon-room:before {
-  content: "\e8b4";
-}
-.icon-star_border:before {
-  content: "\e83a";
-}
-.icon-user:before {
-  content: "\e971";
-}
-.icon-star-empty:before {
-  content: "\e9d7";
-}
-.icon-heart:before {
-  content: "\e9da";
-}
-.icon-facebook2:before {
-  content: "\ea91";
+.icon-compartir:before {
+  content: "\e902";
 }
 .icon-instagram:before {
-  content: "\ea92";
-}
-.icon-whatsapp:before {
-  content: "\ea93";
+  content: "\e903";
 }
 .icon-twitter:before {
-  content: "\ea96";
+  content: "\e904";
 }
-.icon-pinterest:before {
-  content: "\ead1";
+.icon-facebook:before {
+  content: "\e905";
 }
-.icon-pinta-labios-de-mujer:before {
+.icon-lupa:before {
+  content: "\e906";
+}
+.icon-campana:before {
   content: "\e900";
 }
 

@@ -8,7 +8,121 @@ body{
 	padding: 0;
 }
 
+/*=====MENU=====*/
 
+#menu{
+	position: fixed;
+	width: 100%;
+	height: 50px;
+}
+
+/*=====CONTACTO=====*/
+
+#contacto{
+	position: absolute;
+	height: 400px;
+	margin: 0 auto;
+	right: 0;
+	left: 0;
+}
+
+/*=====GRADIENTE-CELULAR=====*/
+
+#gradiente-morado{
+	width: 100%;
+	height: 500px;
+	color: white;
+	background-color: purple;
+	display: inline-flex;
+}
+
+#text-gradiente{
+	position: absolute;
+	margin: 0 auto;
+	left: 250px;
+	width: 350px;
+	display: inline-block;
+	font-weight: 400;
+}
+
+#text-gradiente h2{
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 29px;
+	margin: 22px 0;
+}
+
+#text-gradiente p{
+	font-size: 16px;
+	margin: 0;
+	line-height: 22px;
+}
+
+#celular-gradiente{
+	display: inline-block;
+	position: absolute;
+	margin: 0 auto;
+	right: 250px;
+	width: 460px;
+}
+
+#celular-gradiente img{
+	width: 460px;
+}
+
+/*=====VIDEO1=====*/
+
+#video1{
+	height: 400px;
+	width: 100%;
+	display: inline-flex;
+}
+
+.text-video{
+	width: 300px;
+}
+
+#video1 iframe{
+	width: 600px;
+	height: auto
+}
+
+
+/*=====VIDEO2=====*/
+
+#video2{
+	height: 400px;
+	width: 100%;
+	display: inline-flex;
+}
+
+.text-video{
+	width: 300px;
+}
+
+#video2 iframe{
+	width: 600px;
+	height: auto
+}
+
+/*=====VIDEO3=====*/
+
+#video3{
+	height: 400px;
+	width: 100%;
+	display: inline-flex;
+}
+
+.text-video{
+	width: 300px;
+}
+
+#video3 iframe{
+	width: 600px;
+	height: auto
+}
+
+/*=====FOOTER=====*/
 
 #footer{
 	position: relative;
@@ -84,7 +198,7 @@ body{
 	border: 2px solid white;
 }
 
-.icon-facebook2{
+.icon-facebook{
 	font-size: 25px;
 }
 
