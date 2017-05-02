@@ -216,7 +216,7 @@ section{
 	position: absolute;
 	right: 0;
 	width: 900px;
-	height: 397px;
+	height: 400px;
 }
 
 
@@ -229,7 +229,7 @@ section{
 	width: 100%;
 }
 
-.text-video-derecha{
+.text-video2{
 	position: absolute;
 	right: 100px;
 	top: 20px;
@@ -241,7 +241,7 @@ section{
 	position: absolute;
 	left: 0;
 	width: 900px;
-	height: 397px;
+	height: 400px;
 }
 
 /*=====VIDEO3=====*/
@@ -251,12 +251,19 @@ section{
 	top: 600px;
 }
 
+#video3 .derecha{
+	position: absolute;
+	left: 100px;
+	top: 20px;
+	width: 320px;
+	line-height: 24px;
+}
 
 #video3 iframe{
 	position: absolute;
 	right: 0;
 	width: 900px;
-	height: 397px;
+	height: 400px;
 }
 
 /*=====FOOTER=====*/
