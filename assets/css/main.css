@@ -1,0 +1,115 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+
+body{
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+#footer{
+	position: relative;
+	width: 100%;
+	height: 410px;
+	background-color: #303043;
+	color: white;
+}
+
+#div-footer{
+	position: absolute;
+	margin: 0 auto;
+	width: 1000px;
+	right: 0;
+	left: 0;
+	display: block;
+}
+
+.div-columna{
+	display: inline-block;
+	line-height: 45px;
+	margin: 0 60px;
+}
+
+#footer a{
+	display: block;
+}
+
+.titulo-footer{
+	font-weight: 700;
+	text-decoration: none;
+	color: white;
+}
+
+.titulo-footer:hover{
+	text-decoration: underline;
+}
+
+.text-footer{
+	color: white;
+	text-decoration: none;
+}
+
+.text-footer:hover{
+	color: #d70083;
+}
+
+.logos{
+	display: block;
+	height: 42px;
+	width: auto;
+	margin: 15px 0;
+}
+
+#microsoft{
+	width: 140px;
+}
+
+#div-footer2{
+	position: absolute;
+	margin: 0 auto;
+	right: 0;
+	left: 0;
+	width: 142px;
+	top: 270px;
+}
+
+.div-circular{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	border-radius: 40px;
+	border: 2px solid white;
+}
+
+.icon-facebook2{
+	font-size: 25px;
+}
+
+.icon-instagram{
+	font-size: 	25px;
+}
+
+.icon-twitter{
+	font-size: 25px;
+}
+
+#div-footer3{
+	position: absolute;
+	margin: 0 auto;
+	right: 0;
+	left: 0;
+	width: 600px;
+	top: 345px;
+	text-align: center;
+}
+
+#footer hr{
+	width: 600px;
+	position: absolute;
+	margin: 0 auto;
+	right: 0;
+	left: 0;
+}
